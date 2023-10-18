@@ -4,3 +4,5 @@ RUN pip install -r requirements.txt && pip install awslambdaric
 RUN apt update && apt install -y ffmpeg
 ENTRYPOINT [ "/usr/local/bin/python", "-m", "awslambdaric" ]
 CMD [ "app.handler" ]
+https://qiita.com/yohei7328/items/df7ebaa4544621e16c2b#2-%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%AE%E4%BD%9C%E6%88%90%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%81%A7%E3%81%AE%E5%AE%9F%E8%A1%8C
+https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/python-image.html#python-image-clients
